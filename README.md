@@ -44,28 +44,27 @@ You can access the live version of the weather dashboard [here](https://miralhsn
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/your-username/weather-dashboard.git
+git clone https://github.com/miralhsn/WeatherDashboard.git
 
-### 2. Open the Project:
-```bash
-Open index.html in your web browser to launch the weather dashboard.
+## 2. Open the Project:
+Open `index.html` in your web browser to launch the weather dashboard.
 
-### 3. API Key Setup:
-```bash
-OpenWeather API: Sign up and generate an API key from OpenWeather.
-Gemini API: Register for an API key from Gemini.
-Replace the placeholders in the code with your actual API keys.
+## 3. API Key Setup:
+
+- **OpenWeather API**: Sign up and generate an API key from [OpenWeather](https://home.openweathermap.org/users/sign_up).
+- **Gemini API**: Register for an API key from Gemini.
+- Replace the placeholders in the code with your actual API keys.
 
 ### 4. Weather and Chatbot Integration:
-```bash 
+```bash
 Fetch weather data by entering a city name.
 Chat with the chatbot for weather or non-weather-related queries.
 
-## Contributing
+Contributions
 Contributions are welcome! Fork the repository and submit a pull request with your improvements.
 
-## License
+License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contact
+Contact
 For any questions or suggestions, feel free to reach out to me at miralqureshi@gmail.com.
