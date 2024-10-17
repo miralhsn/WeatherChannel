@@ -31,10 +31,10 @@ This project implements a fully responsive weather dashboard with a chatbot inte
 ## Preview
 
 ### Dashboard Layout
-![Weather Dashboard](/images/Dashboard.png) 
+![Weather Dashboard](./images/Dashboard.png) 
 
 ### Tables Layout
-![Tables Page](/images/Tables%20Page.png) 
+![Tables Page](./images/Tables%20Page.png) 
 
 ## Access the Weather Dashboard
 
@@ -47,7 +47,7 @@ You can access the live version of the weather dashboard [here](https://miralhsn
 git clone https://github.com/miralhsn/WeatherDashboard.git
 ```
 ## 2. Open the Project:
-Open `index.html` in your web browser to launch the weather dashboard.
+Open `dashboard.html` in your web browser to launch the weather dashboard.
 
 ## 3. API Key Setup:
 
