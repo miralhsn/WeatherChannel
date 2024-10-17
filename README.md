@@ -31,10 +31,10 @@ This project implements a fully responsive weather dashboard with a chatbot inte
 ## Preview
 
 ### Dashboard Layout
-![Weather Dashboard](./images/Dashboard.png) 
+![Weather Dashboard](/images/Dashboard.png) 
 
 ### Tables Layout
-![Tables Page](./images/Tables%20Page.png) 
+![Tables Page](/images/Tables.png) 
 
 ## Access the Weather Dashboard
 

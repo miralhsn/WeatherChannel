@@ -6,7 +6,7 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const apiKey = '';//weatherapi key
+  const apiKey = '0eb0a39c570cc1e4073dc6b135514846';//weatherapi key
   const cityInput = document.getElementById('city_input');
   const searchBtn = document.getElementById('searchBtn');
   const locationBtn = document.getElementById('locationBtn');
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // weather widget logic
 document.addEventListener('DOMContentLoaded', function () {
-  const apiKey = '';
+  const apiKey = '0eb0a39c570cc1e4073dc6b135514846';
   const cityInput = document.getElementById('city_input');
   const searchBtn = document.getElementById('searchBtn');
   const locationBtn = document.getElementById('locationBtn');
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // 5 day forecast logic
 document.addEventListener('DOMContentLoaded', function () {
-  const apiKey = ''; 
+  const apiKey = '0eb0a39c570cc1e4073dc6b135514846'; 
   const cityInput = document.getElementById('city_input');
   const searchBtn = document.getElementById('searchBtn');
   const locationBtn = document.getElementById('locationBtn');
@@ -418,9 +418,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const userInput = document.getElementById('user-query');
   const chatbotResponse = document.getElementById('chatbot-response');
 
-  const GEMINI_API_KEY = ''; 
+  const GEMINI_API_KEY = 'AIzaSyApESpnq8TahLPA6IWn0ocuOcgeVILiER4'; 
 
-  const WEATHER_API_KEY = ''; 
+  const WEATHER_API_KEY = '0eb0a39c570cc1e4073dc6b135514846'; 
 
   sendButton.addEventListener('click', () => {
     const question = userInput.value;
