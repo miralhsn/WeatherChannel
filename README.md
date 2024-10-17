@@ -38,13 +38,13 @@ This project implements a fully responsive weather dashboard with a chatbot inte
 
 ## Access the Weather Dashboard
 
-You can access the live version of the weather dashboard [here](https://miralhsn.github.io/WeatherDashboard/). 
+You can access the live version of the weather dashboard [here](https://miralhsn.github.io/WeatherChannel/). 
 
 ## Setup and Usage
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/miralhsn/WeatherDashboard.git
+git clone https://github.com/miralhsn/WeatherChannel.git
 ```
 ## 2. Open the Project:
 Open `dashboard.html` in your web browser to launch the weather dashboard.
