@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Tables</title>
+  <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">
+        <h2>Weather App</h2>
+      </div>
+      <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="tables.html">Tables</a>
+      </nav>
+    </div>
+
+    <div class="main-content">
+      <header class="header">
+        <div class="weather-input">
+          <input type="text" name="city" id="city_input" placeholder="Enter city name" required>
+          <button type="button" id="searchBtn" aria-label="Search for weather">
+            <i class="fa-regular fa-search"></i>
+          </button>
+          <button type="button" id="locationBtn" aria-label="Use your location">
+            <i class="bx bx-target-lock"></i> Use Location
+          </button>
+        </div>
+        <div class="user-profile">
+          <img src="/images/user.jpg" alt="User Profile" class="profile-pic">
+        </div>
+      </header>
+
+      <div class="table-section">
+        <h3>5-Day Weather Forecast</h3>
+        <div class="filters">
+          <label for="filters">Filters:</label>
+          <select id="filters">
+            <option value="all">Show All</option>
+            <option value="ascending">Show Temperatures Ascending</option>
+            <option value="descending">Show Temperatures Descending</option>
+            <option value="rain">Filter Days with Rain</option>
+            <option value="highest">Show Highest Temperature</option>
+          </select>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Temperature</th>
+              <th>Weather Condition</th>
+              <th>Wind Speed</th>
+              <th>Humidity</th>
+            </tr>
+          </thead>
+          <tbody id="forecast-table">
+          </tbody>
+        </table>
+        <div class="pagination">
+          <button id="prevPage">Previous</button>
+          <button id="nextPage">Next</button>
+        </div>
+      </div>
+
+      <div class="chatbot-widget">
+        <div id="chatbot-response"></div>
+        <div class="chatbot-input">
+          <input type="text" id="user-query" placeholder="Ask me anything...">
+          <button id="send-query">Send</button>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
