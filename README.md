@@ -45,7 +45,7 @@ You can access the live version of the weather dashboard [here](https://miralhsn
 ### 1. Clone the Repository:
 ```bash
 git clone https://github.com/miralhsn/WeatherDashboard.git
-
+```
 ## 2. Open the Project:
 Open `index.html` in your web browser to launch the weather dashboard.
 
@@ -56,15 +56,15 @@ Open `index.html` in your web browser to launch the weather dashboard.
 - Replace the placeholders in the code with your actual API keys.
 
 ### 4. Weather and Chatbot Integration:
-```bash
+
 Fetch weather data by entering a city name.
 Chat with the chatbot for weather or non-weather-related queries.
 
-Contributions
+## Contributions
 Contributions are welcome! Fork the repository and submit a pull request with your improvements.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+## Contact
 For any questions or suggestions, feel free to reach out to me at miralqureshi@gmail.com.
